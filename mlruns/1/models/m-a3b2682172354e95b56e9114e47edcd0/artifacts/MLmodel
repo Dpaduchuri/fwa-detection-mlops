@@ -1,0 +1,22 @@
+artifact_path: /home/dhanush/fwa-detection-mlops/mlruns/1/models/m-a3b2682172354e95b56e9114e47edcd0/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.4
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.sklearn.XGBClassifier
+    model_format: ubj
+    xgb_version: 3.3.0
+mlflow_version: 3.7.0
+model_id: m-a3b2682172354e95b56e9114e47edcd0
+model_size_bytes: 285608
+model_uuid: m-a3b2682172354e95b56e9114e47edcd0
+prompts: null
+run_id: 914dd75682d54bb4b08ea4487180227e
+utc_time_created: '2026-06-21 02:49:57.447943'
