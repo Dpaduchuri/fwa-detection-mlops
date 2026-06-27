@@ -1,0 +1,19 @@
+{
+  "timestamp": "20260627_162146",
+  "reference_size": 114,
+  "current_size": 114,
+  "features_checked": [
+    "total_services",
+    "total_billed",
+    "total_paid",
+    "max_billing_ratio",
+    "avg_billing_ratio",
+    "unique_procedures",
+    "procedure_concentration",
+    "procedures_per_day",
+    "denial_proxy"
+  ],
+  "drift_detected": false,
+  "drifted_features": [],
+  "recommendation": "No action needed - model inputs stable"
+}
