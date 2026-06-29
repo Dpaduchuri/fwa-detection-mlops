@@ -1,0 +1,21 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "FWASageMakerExecutionRole",
+        "RoleId": "AROAYB3R7TAUEVC64MPIV",
+        "Arn": "arn:aws:iam::553752959016:role/FWASageMakerExecutionRole",
+        "CreateDate": "2026-06-29T02:07:07+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "sagemaker.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        }
+    }
+}
